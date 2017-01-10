@@ -42,8 +42,8 @@ var m = require('module'),
     originalCache = null,
     defaultOptions = {
         useCleanCache: false,
-        warnOnReplace: true,
-        warnOnUnregistered: true
+        warnOnReplace: false,
+        warnOnUnregistered: false
     },
     options = {};
 
